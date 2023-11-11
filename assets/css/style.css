@@ -66,10 +66,10 @@ ul, li {
 
 /*Styles for main hero image*/
 .hero {
-    height: 900px;
+    height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    size: cover;
+    object-fit: cover;
     position: center;
 }
 
