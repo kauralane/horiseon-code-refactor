@@ -21,6 +21,10 @@ p {
     font-size: 16px;
 }
 
+ul, li {
+    text-align: right;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,7 +45,7 @@ p {
     background-color:#2a607c;
 }
 
-.header div {
+.header nav { 
     padding-top: 15px;
     margin-right: 20px;
     float: right;
