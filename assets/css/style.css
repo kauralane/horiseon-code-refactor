@@ -38,12 +38,12 @@ ul, li {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    color: #d9dcd6
 }
 
-/*To make 'SEO' portion of title grey on same colour background, because semantic HTML <mark> element highlights in yellow*/
+/*To make 'SEO' portion of title grey on blue background, because semantic HTML <mark> element highlights in yellow*/
 .seo {
     background-color:#2a607c;
+    color: #d9dcd6;
 }
 
 /*Styles for Hhader section*/
