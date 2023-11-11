@@ -21,10 +21,12 @@ p {
     font-size: 16px;
 }
 
+/*To align nav links to the right*/
 ul, li {
     text-align: right;
 }
 
+/*Styles for header class*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,19 +34,19 @@ ul, li {
     color: #ffffff;
 }
 
+/*Style for page title*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    color: #d9dcd6
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
+/*To make 'SEO' portion of title grey on same colour background, because semantic HTML <mark> element highlights in yellow*/
 .seo {
     background-color:#2a607c;
 }
 
+/*Styles for Hhader section*/
 .header nav { 
     padding-top: 15px;
     margin-right: 20px;
@@ -62,6 +64,7 @@ ul, li {
     margin-left: 20px;
 }
 
+/*Styles for main hero image*/
 .hero {
     height: 900px;
     width: 100%;
@@ -70,22 +73,47 @@ ul, li {
     position: center;
 }
 
+/*to float images in main section left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*to float middle image in main section right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*set main content width and display type*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Set main content sections positioning, font, colours*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Set main content image height*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Set main content header positions and font size*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Set aside content positioning, font, colours*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -97,40 +125,26 @@ ul, li {
     background-color: #2589bd;
 }
 
+/*Sets margins and font colours for aside sections*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Sets margins and alignment for headers within aside*/
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Sets display for aside images*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*sets footer styles*/
 .footer {
     padding: 30px;
     clear: both;
@@ -138,6 +152,7 @@ ul, li {
     text-align: center;
 }
 
+/*set fooder heading text size*/
 .footer h2 {
     font-size: 20px;
 }
