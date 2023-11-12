@@ -25,4 +25,4 @@ This application is a simple home page, and can be viewed and read with assistiv
 Code base: Horiseon Social Solution Services, Inc.
 
 ## License
-Licensed under the MIT License.
+Licensed under the [MIT License](LICENSE).
