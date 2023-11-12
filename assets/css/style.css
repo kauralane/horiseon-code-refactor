@@ -34,7 +34,7 @@ ul, li {
     color: #ffffff;
 }
 
-/*Style for page title*/
+/*Styles for page title*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -46,7 +46,7 @@ ul, li {
     color: #d9dcd6;
 }
 
-/*Styles for Hhader section*/
+/*Styles for Header section*/
 .header nav { 
     padding-top: 15px;
     margin-right: 20px;
@@ -73,26 +73,26 @@ ul, li {
     position: center;
 }
 
-/*to float images in main section left*/
+/*To float images in main section left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/*to float middle image in main section right*/
+/*To float middle image in main section right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*set main content width and display type*/
+/*Sets main content width and display type*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*Set main content sections positioning, font, colours*/
+/*Sets main content sections positioning, font, colours*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,18 +102,18 @@ ul, li {
     color: #ffffff;
 }
 
-/*Set main content image height*/
+/*Sets main content image height*/
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-/*Set main content header positions and font size*/
+/*Sets main content header positions and font size*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*Set aside content positioning, font, colours*/
+/*Sets aside content positioning, font, colours*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -144,7 +144,7 @@ ul, li {
     max-width: 150px;
 }
 
-/*sets footer styles*/
+/*Sets footer styles*/
 .footer {
     padding: 30px;
     clear: both;
@@ -152,7 +152,7 @@ ul, li {
     text-align: center;
 }
 
-/*set fooder heading text size*/
+/*Sets fooder heading text size*/
 .footer h2 {
     font-size: 20px;
 }

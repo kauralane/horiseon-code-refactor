@@ -1,7 +1,7 @@
 # Horiseon Code Refactor
 
 ## Description
-This application is an accessible Horiseon home page. I started with Horiseon’s original code and refactored it to meet certain accessibility standards, of course without changing how the page looks or functions overall. Accessibility is rightly extremely important, to enable those with assistive technologies to access an application. And that’s not to mention the SEO benefits.
+This application is an accessible Horiseon home page. I started with Horiseon’s original code and refactored it to meet certain accessibility standards, of course without changing how the page looks or functions overall. Accessibility is rightly extremely important, to enable those with assistive technologies to access an application. And that’s not to mention the SEO benefits!
 
 I changed the code so that the application is now made up of solely semantic HTML elements; 'span' and 'div' do not feature anywhere within it! All the corresponding CSS selectors have also been changed to match their new semantic HTML elements. Alt attributes have been added for every image and icon, and headings run in the correct order. 
 
@@ -15,7 +15,7 @@ Deployed application: https://kauralane.github.io/horiseon-code-refactor/
 None.
 
 ## Usage
-This application is simple to use, and can be viewed and read with assistive technologies. There are 3 links to interact with in the header, and these will take you to the corresponding section of the page.
+This application is a simple home page, and can be viewed and read with assistive technologies. There are 3 links to interact with in the header, and these will take you to the corresponding section of the page.
 
 ## Credits
 Code base: Horiseon Social Solution Services, Inc.
