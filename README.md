@@ -11,6 +11,10 @@ One of the 3 nav links was broken so I’ve also fixed that. This was a fun less
 
 Deployed application: https://kauralane.github.io/horiseon-code-refactor/
 
+[Screenshot 1](assets/screenshots/1.png)
+[Screenshot 2](assets/screenshots/2.png)
+[Screenshot 3](assets/screenshots/3.png)
+
 ## Installation
 None.
 
